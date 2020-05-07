@@ -127,10 +127,18 @@ body {
 	background: #e7e4d8;
 	border-top: 3px solid #d6d3c8;
 	border-bottom: 3px solid #d6d3c8;
+	padding: 60px 0;
+}
+
+.produtos-item {
+	flex: 1;
+	margin: 0 10px 25px 10px;
 }
 
 .produtos-item h2 {
 	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .produtos-item h2::before {
@@ -142,6 +150,7 @@ body {
 	border-radius: 50%;
 	border: 5px solid #e7e4d8;
 	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto;
 }
 
 h2.produtos-paulista::before {
@@ -169,17 +178,42 @@ h2.produtos-mineiro::before {
 	font-size: 1.125em;
 	font-weight: bold;
 	text-transform: uppercase;
+	width: 180px;
+	display: block;
+	padding: 15px 0;
+	margin: 20px auto 0 auto;
 }
 
 /* Locais */
+.locais {
+	padding: 60px 0;
+}
+
+.locais-item {
+	margin-bottom: 40px;
+}
+
+.locais-img, .locais-info {
+	flex: 1;
+	margin: 0 10px;
+}
+
+
+.locais-img img {
+	display: block;
+	max-width: 100%;
+}
 
 .locais-item h2 {
 	font-size: 2.25em;
+	padding: 20px;
 }
 
 .locais-item p {
 	font-size: 1.125em;
 	line-height: 1.4em;
+	max-width: 320px;
+	margin-bottom: 40px;
 }
 
 .locais-item a {
@@ -188,13 +222,25 @@ h2.produtos-mineiro::before {
 	text-decoration: none;
 	border: 3px solid;
 	color: #252525;
+	padding: 10px 20px;
 }
 
 /* Assine */
 
 .assine {
 	background: #e7e4d8;
+	padding: 20px;
 }
+
+.assine-info {
+	flex: 1;
+	margin: 0 10px;
+}
+
+.assine-info h2 {
+	font-size: 2.25em;
+}
+
 
 .assine-info h2 {
 	font-size: 2.25em;
@@ -205,11 +251,22 @@ h2.produtos-mineiro::before {
 	font-style: italic;
 }
 
+.assine form {
+	float: 1;
+	margin: 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
 .assine form label {
 	display: none;
 }
 
 .assine input {
+	flex: 1;
+	align-self: flex-start;
+	padding: 10px;
 	border: 3px solid #252525;
 	background: none;
 	font-size: 1.5em;
@@ -218,6 +275,7 @@ h2.produtos-mineiro::before {
 }
 
 .assine button {
+	flex: 1;
 	background: #252525;
 	border: none;
 	font-family: Georgia, serif;
@@ -231,9 +289,16 @@ h2.produtos-mineiro::before {
 
 .footer {
 	background: #d6d3c8;
+	padding: 20px;
 }
 
 .footer p {
 	font-size: 1.125em;
 	line-height: 1.4em;
+	margin: 0 10px;
+	flex: 1;
+}
+
+.footer-img {
+	margin: 0 10px
 }
