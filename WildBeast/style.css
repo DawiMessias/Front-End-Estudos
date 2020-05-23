@@ -10,7 +10,9 @@
 }
 
 img {
-    max-width: 200px;
+		max-width: 200px;
+		display: block;
+		border-radius: 5px
 }
 
 .estrutura {
@@ -90,8 +92,32 @@ img {
 
 .anuncios {
 	grid-area: anuncios;
+	padding: 25px;
+	background: #fafbfc;
+	display: grid;
+	align-content: start;
+	gap: 30px;
+}
+
+.anuncio-item {
+	margin: 22px;
+	display: block;
+	display: block;
+	width: 100%;
+	max-width: 100%;
 }
 
 .footer {
 	grid-area: footer;
+	padding: 20px;
+	background: linear-gradient(135deg, #8844ee, #b07dfb);
+	color: white;
+}
+
+.footer p {
+	text-align:  center;
+	font-size: 1.125em;
+	padding: 10px;
+	font-size: 1.2em;
+	line-height: 1.6;
 }
