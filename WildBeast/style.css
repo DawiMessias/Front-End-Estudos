@@ -10,7 +10,7 @@
 }
 
 img {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .estrutura {
@@ -25,6 +25,40 @@ img {
 
 .header {
 	grid-area: header;
+	background: linear-gradient(135deg, #8844ee, #b07dfb);
+	padding: 30px;
+	font-size: 25px;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+}
+
+.header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header nav a {
+	display: block;
+	padding: 10px;
+	color: white;
+	font-size: 1.125em;
+	background: rgba(0, 0, 0, .1);
+	border-radius: 5px;
+	margin: 10px;
+	transition: 0.1s;
+}
+
+.header nav a:hover {
+	background: rgba(0, 0, 0, .5);
+}
+
+.header li + li {
+	margin-left: 30px;
+}
+
+.logo {
+	max-width: 200px;
 }
 
 .sidenav {
