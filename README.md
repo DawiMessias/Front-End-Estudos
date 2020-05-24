@@ -9,7 +9,7 @@ São sítes mais simples que usei apenas:
 
 - Grid e FlexBlox :)
 
-<h1 align="center">Caso você queria aprender as bruxarias do CSS, faça os cursos da Origamid são muito bons para aprender posicionamento, responsividade, dimensionamento e também uma melhora na visão sobre estética.</h1>
+<p align="center">Caso você queria aprender as bruxarias do CSS, faça os cursos da Origamid são muito bons para aprender posicionamento, responsividade, dimensionamento e também uma melhora na visão sobre estética.</p>
 
 ## Acesse: [Origamid](https://www.origamid.com/)
 
