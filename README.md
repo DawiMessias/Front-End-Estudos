@@ -1,9 +1,16 @@
-<h1 align="center"> Este repositório é para meus projetos
- com foco no front-End :)</h1>
+<h1> 
+  Este repositório é dedicado aos meus projetos
+  com foco no FrontEnd realizados durante o curso de front / UI / UX do André
+ </h1>
 
+<p >
 Recriando sites do zero, explorando alguma ideia meio
- maluca, alguns sites que faço acompanhando o curso
-  da Origamid como: **WildBeast**, **Brafé**, **FlexBlog**. 
+maluca, alguns sites que faço acompanhando o curso
+da Origamid como: 
+</p>
+
+
+**Animais**, **WildBeast**, **Brafé** e **FlexBlog**. 
 
 São sítes mais simples que usei apenas:
 
@@ -12,8 +19,18 @@ São sítes mais simples que usei apenas:
 - Javascrit
 - Grid e FlexBlox :)
 
-<p align="center">Caso você queria aprender as bruxarias do CSS, faça os cursos da Origamid são muito bons para aprender posicionamento, responsividade, dimensionamento e também uma melhora na visão sobre estética.</p>
+<p>Caso você queria aprender as bruxarias do CSS, recomendo que faça os cursos da Origamid, são muito bons para aprender posicionamento, responsividade, dimensionamento e também uma melhora na visão sobre estética.</p>
 
 ## Acesse: [Origamid](https://www.origamid.com/)
 
-Com Amor e carinho  **David Messias** s2
+Com Amor e carinho  **David Messias**
+
+<img src="./Assets - pages/Animais.jpeg">
+
+<img src="./Assets - pages/Brafe01.jpeg">
+
+<img src="./Assets - pages/image brafe.PNG">
+
+<img src="./Assets - pages/Wild2.png">
+
+<img src="./Assets - pages/WildBeast.png">
